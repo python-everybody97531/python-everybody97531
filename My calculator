@@ -1,0 +1,17 @@
+import math
+
+number = input('What are doing to these numbers? = ')
+number_1 = input('First integer = ')
+number_2 = input('Second integer = ')
+if number.upper() == '+':
+    answer = int(number_1) + int(number_2)
+    print(answer)
+elif number.upper() == '-':
+    answer = int(number_1) - int(number_2)
+    print(answer)
+elif number.upper() == '*':
+    answer = int(number_1) * int(number_2)
+    print(answer)
+elif number.upper() == '/':
+    answer = int(number_1) / int(number_2)
+    print(answer)
